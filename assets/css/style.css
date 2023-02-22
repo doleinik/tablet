@@ -1,0 +1,111 @@
+body {
+    background-color: #171717;
+}
+
+.hidden {
+    width: 0;
+    overflow: hidden;
+}
+.empty {
+   text-align: center; 
+   color: #c41313;
+}
+
+.form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 40px 10px;
+    border-radius: 20px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: #171717;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+input::placeholder {
+    color: #fff;
+    font-size: 18px;
+}
+
+select {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: #171717;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.form__button {
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    padding: 10px 40px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    background-color: #171717;
+}
+
+#message{
+    visibility: hidden;
+    text-align: center;
+    color: #0f8c09;
+    margin-bottom: 20px;
+}
+
+#message.succseful {
+    visibility: visible;
+}
+
+#get-all-users {
+    color: #fff;
+    text-align: center;
+    width: max-content;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    padding: 10px 40px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#users {
+    width: 100%;
+    min-width: max-content;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.users-item {
+    color: #fff;
+    display: flex;
+    gap: 10px;
+}
+
+.users-item__info {
+    margin-right: auto;
+}
+
+.users-item__delete, .cancel {
+    color: #c41313;
+    cursor: pointer;
+}
+
+.users-item__update, .save {
+    color: #1cc413;
+    cursor: pointer;
+}

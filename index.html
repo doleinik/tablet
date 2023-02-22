@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tablet</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<form class="form">
+    <input class="form__input" type="text" name="name" required placeholder="Enter name">
+
+    <input class="form__input" type="text" name="surname" required placeholder="Enter surname">
+
+    <select class="form__select" name="position">
+        <option value="Программист">
+            Программист
+        </option>
+
+        <option value="Менеджер">
+            Менеджер
+        </option>
+
+        <option value="Тестировщик">
+            Тестировщик
+        </option>
+    </select>
+
+    <button class="form__button" type="submit">Отправить</button>
+</form>
+<div id="message">User Add!</div>
+<div id="get-all-users">Get all users</div>
+<div id="users"></div>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
